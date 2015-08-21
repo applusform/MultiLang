@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MOML>
+	<STRING lang="ja">
+		<STRING key="English" value="日本語"/>
+		<STRING key="Nice to meet you." value="はじめまして。"/>
+		<STRING key="Setting" value="設定"/>
+		<STRING key="Language:" value="言語:"/>
+		<STRING key="Back" value="戻る"/>
+	</STRING>
+</MOML>			

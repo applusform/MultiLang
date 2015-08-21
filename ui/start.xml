@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MOML version="1.1.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.applusform.com/xsd/moml_ui_1.1.8.xsd">
+	<INIT>
+		<!-- user selected language or OS language-->
+		<CMD cmd="lang = saveVariable.lang"/>
+		<CMD condition="!lang" cmd="lang = device.os.language" />
+
+		<!-- country code for Chinese-->
+		<CMD condition="lang == 'zh'" >
+			<CMD cmd="country = device.os.country"/>
+			<CMD condition="country == 'TW'" cmd="lang = 'zh-TW'" elseCmd="lang = 'zh-CN'"/>
+		</CMD>
+
+		<!-- check valid language -->
+		<CMD condition="lang == 'en' || lang == 'ko' || lang == 'ja' || lang == 'zh-CN' || lang == 'zh-TW'" >
+			<!-- English default-->
+			<ELSECMD cmd="lang = 'en'"/>
+		</CMD>
+
+		<!-- res load-->
+		<CMD cmd="res.lang = lang"/>
+		<CMD cmd="res.load('/res/' + res.lang + '/strings.xml')"/>
+	</INIT>
+	
+	<UILAYOUT portrait="320,480" landscape="320,480" >
+		<NAVIGATIONCONTAINER id="navigation" layout="0,0,320,480" selectedItem="{saveVariable.selectedItem}" img="white" >
+			<VIEWITEM id="main" src="main.xml">
+				<VIEWITEM id="setting" src="setting.xml"/>
+			</VIEWITEM>
+		</NAVIGATIONCONTAINER>
+	</UILAYOUT>
+	
+	<CMD cmd="saveVariable.selectedItem = ''"/>
+</MOML>

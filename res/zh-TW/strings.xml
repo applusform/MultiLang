@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MOML>
+	<STRING lang="zh-TW">
+		<STRING key="English" value="繁體中文"/>
+		<STRING key="Nice to meet you." value="很高興認識你。"/>
+		<STRING key="Setting" value="設定"/>
+		<STRING key="Language:" value="語言:"/>
+		<STRING key="Back" value="返回"/>
+	</STRING>
+</MOML>			

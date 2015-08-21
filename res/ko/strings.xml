@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MOML>
+	<STRING lang="ko">
+		<STRING key="English" value="한국어"/>
+		<STRING key="Nice to meet you." value="반갑습니다."/>
+		<STRING key="Setting" value="설정"/>
+		<STRING key="Language:" value="언어:"/>
+		<STRING key="Back" value="뒤로"/>
+	</STRING>
+</MOML>
