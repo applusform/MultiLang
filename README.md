@@ -2,11 +2,14 @@
 Multi language support example
 
 Screen shot :
+
 ![Screen shot](http://applusform.github.io/MultiLang/screenshot_en_main.png)
-![Screen shot](http://applusform.github.io/MultiLang/screenshot_ko_main.png)
-![Screen shot](http://applusform.github.io/MultiLang/screenshot_zh_main.png)
 ![Screen shot](http://applusform.github.io/MultiLang/screenshot_en_setting.png)
+
+![Screen shot](http://applusform.github.io/MultiLang/screenshot_ko_main.png)
 ![Screen shot](http://applusform.github.io/MultiLang/screenshot_ko_setting.png)
+
+![Screen shot](http://applusform.github.io/MultiLang/screenshot_zh_main.png)
 ![Screen shot](http://applusform.github.io/MultiLang/screenshot_zh_setting.png)
 
 #### How to test this?
